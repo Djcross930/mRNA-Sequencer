@@ -9,7 +9,6 @@ amino_acid_index = 3
 index = 0
 base_pair_index = 0
 protein = []
-x = 3
 while index < sequence_array.length && switch == 0
   if sequence_array[index] == "A" && sequence_array[index + 1] == "U" && sequence_array[index + 2] == "G"
     p "Start Codon at position #{index}"
